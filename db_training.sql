@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 07 Jul 2019 pada 19.36
+-- Waktu pembuatan: 08 Jul 2019 pada 00.34
 -- Versi server: 10.3.16-MariaDB
 -- Versi PHP: 7.3.6
 
@@ -270,9 +270,10 @@ CREATE TABLE `tusers` (
 --
 
 INSERT INTO `tusers` (`fuserid`, `froleid`, `fusername`, `fuseremail`, `fuserpassword`, `fuseraddress`, `fnik`, `fnpwp`, `fusersoftskill`, `fuserhardskill`, `fuserbirthdate`, `fremembermetoken`, `fuserstatus`, `fporgotcode`, `created_at`, `updated_at`) VALUES
-(1, 1, 'admin', 'admin@123.com', 'fcea920f7412b5da7be0cf42b8c93759', 'Jl.Widuri no.94 Banyuwangi', '9000000009', '9000000009', 'menulis', 'hardskill', '1999-01-05', NULL, 1, NULL, '2019-07-04 17:00:00', NULL),
+(1, 1, 'admin', 'admin@123.com', 'e10adc3949ba59abbe56e057f20f883e', 'Jl.Widuri no.94 Banyuwangi', '9000000009', '9000000009', 'menulis', 'hardskill', '1999-01-05', NULL, 1, NULL, '2019-07-04 17:00:00', NULL),
 (8, 2, 'Aldiyan', 'aldian@train.com', 'e10adc3949ba59abbe56e057f20f883e', 'jl. widuri', '9929299', '99999999', '', '', '2019-07-23', NULL, 1, NULL, '2019-07-06 18:15:45', NULL),
-(9, 2, 'roman', 'wildan00x@gmail.com', '1504dafadb91526562eb0ab2c1fcef88', 'jl.endah', '999999', '999999', '', '', '2019-07-09', NULL, 1, '', '2019-07-06 18:22:00', NULL);
+(9, 2, 'roman', 'wildan00x@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', 'jl.endah', '999999', '999999', '', '', '2019-07-09', NULL, 1, '', '2019-07-06 18:22:00', NULL),
+(11, 1, 'Hanum', 'hanum@yahoo.co.id', 'e10adc3949ba59abbe56e057f20f883e', 'Banyuwangi', '', '', '', '', '2019-06-30', NULL, 1, NULL, '2019-07-07 17:23:15', NULL);
 
 --
 -- Indexes for dumped tables
@@ -395,7 +396,7 @@ ALTER TABLE `ttrainingtype`
 -- AUTO_INCREMENT untuk tabel `tusers`
 --
 ALTER TABLE `tusers`
-  MODIFY `fuserid` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `fuserid` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
