@@ -3,3 +3,4 @@
 2. import db_training.sql
 3. configurasi database
 4. Login Admin --> email:admin@123.com   password:123456
+5. Login page : localhost/cmstraining/backend/login/
